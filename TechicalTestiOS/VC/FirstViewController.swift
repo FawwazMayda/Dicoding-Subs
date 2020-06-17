@@ -18,7 +18,7 @@ class FirstViewController: UIViewController {
         tableView.delegate = self
         tableView.dataSource = self
         ng.delegate = self
-        ng.reqBookUpdate(limit: 7)
+        ng.reqBookUpdate(limit: 12)
         // Do any additional setup after loading the view.
     }
     
