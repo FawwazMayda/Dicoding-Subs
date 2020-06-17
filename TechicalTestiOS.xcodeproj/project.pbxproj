@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4D2CE763249A23B80033A6E0 /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D2CE762249A23B80033A6E0 /* AboutViewController.swift */; };
 		4DA6FA882495FF9100F4EF1E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DA6FA872495FF9100F4EF1E /* AppDelegate.swift */; };
 		4DA6FA8A2495FF9100F4EF1E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DA6FA892495FF9100F4EF1E /* SceneDelegate.swift */; };
 		4DA6FA8C2495FF9100F4EF1E /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DA6FA8B2495FF9100F4EF1E /* FirstViewController.swift */; };
@@ -30,6 +31,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4D2CE762249A23B80033A6E0 /* AboutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
 		4DA6FA842495FF9100F4EF1E /* TechicalTestiOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TechicalTestiOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4DA6FA872495FF9100F4EF1E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4DA6FA892495FF9100F4EF1E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -119,6 +121,7 @@
 				4DA6FAAF249602BE00F4EF1E /* BookByGenreViewController.swift */,
 				4DA6FAAD2496029600F4EF1E /* BookDetailViewController.swift */,
 				4DA6FAB82496261200F4EF1E /* WriterDetailViewController.swift */,
+				4D2CE762249A23B80033A6E0 /* AboutViewController.swift */,
 			);
 			path = VC;
 			sourceTree = "<group>";
@@ -216,6 +219,7 @@
 				4DA6FA882495FF9100F4EF1E /* AppDelegate.swift in Sources */,
 				4DA6FAAB2496015500F4EF1E /* NetReqDelegate.swift in Sources */,
 				4DA6FA8A2495FF9100F4EF1E /* SceneDelegate.swift in Sources */,
+				4D2CE763249A23B80033A6E0 /* AboutViewController.swift in Sources */,
 				4DA6FAB0249602BE00F4EF1E /* BookByGenreViewController.swift in Sources */,
 				4DA6FAA72495FFDD00F4EF1E /* GenreFiles.swift in Sources */,
 				4DA6FAB52496206600F4EF1E /* BookByGenreCellTableViewCell.swift in Sources */,
