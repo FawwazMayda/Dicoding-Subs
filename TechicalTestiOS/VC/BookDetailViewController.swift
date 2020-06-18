@@ -47,7 +47,7 @@ class BookDetailViewController: UIViewController {
 
                 
                 self.bookWriterButton.setTitle(bookDetail.Writer_by_writer_id.User_by_user_id.name, for: .normal)
-                if var coverURL = self.currentBookDetail?.cover_url {
+                if let coverURL = self.currentBookDetail?.cover_url {
                     let index = coverURL.index(coverURL.startIndex, offsetBy: 9)
                     let urlSubStr = coverURL.suffix(from: index)
                     self.getImageFromUrl(imgURL: String(urlSubStr),for: self.bookImageView)
@@ -73,7 +73,6 @@ class BookDetailViewController: UIViewController {
         writerId = currentBookDetail?.Writer_by_writer_id.User_by_user_id.id as! Int
         performSegue(withIdentifier: "ToWriterDetail", sender: nil)
     }
-    
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if segue.identifier == "ToWriterDetail" {
             let destVC = segue.destination as? WriterDetailViewController

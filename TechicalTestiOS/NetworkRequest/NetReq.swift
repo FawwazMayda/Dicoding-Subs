@@ -36,9 +36,7 @@ class NetReq {
             let genreData = try! decoder.decode(GenreParse.self, from: data)
             print(genreData.resource[0].title)
             return genreData.resource
-        } catch {
-            print(error)
-        }
+        } 
     }
     
     
@@ -62,8 +60,6 @@ class NetReq {
             //print(bookData.result[0].Writer_by_writer_id.status)
             //print(bookData.result[0].Writer_by_writer_id.User_by_user_id.name)
             return bookData.result
-        } catch {
-            print(error)
         }
     }
     
@@ -87,8 +83,6 @@ class NetReq {
             let bookDetailData = try! JSONDecoder().decode(BookDetailParse.self, from: data)
             print(bookDetailData.result.title)
             return bookDetailData.result
-        } catch {
-            print(error)
         }
     }
     
@@ -110,8 +104,6 @@ class NetReq {
             let bookUpdateData = try! JSONDecoder().decode(BookUpdateParse.self, from: data)
             print(bookUpdateData.result[0].title)
             return bookUpdateData.result
-        } catch {
-            print(error)
         }
     }
     
@@ -136,8 +128,6 @@ class NetReq {
             let writerDetailData = try! JSONDecoder().decode(WriterDetailParse.self, from: data)
             print(writerDetailData.result.karya[0].title)
             return writerDetailData.result
-        } catch {
-            print(error)
         }
     }
 }

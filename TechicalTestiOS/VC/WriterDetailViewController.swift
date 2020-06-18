@@ -110,7 +110,7 @@ extension WriterDetailViewController: UITableViewDelegate,UITableViewDataSource 
     }
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        selectedBookId = currentWriterDetail?.karya[indexPath.row].id as! Int
+        selectedBookId = (currentWriterDetail?.karya[indexPath.row].id)! as Int
         performSegue(withIdentifier: "ToBookDetail", sender: nil)
     }
     
